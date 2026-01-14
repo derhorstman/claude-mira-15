@@ -1,6 +1,6 @@
 # Aktuelle Aufgabe
 
-**Stand:** 2026-01-06 (Session 58)
+**Stand:** 2026-01-14 (Session 59)
 
 ---
 

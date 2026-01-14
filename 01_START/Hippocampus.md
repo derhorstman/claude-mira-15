@@ -1,4 +1,6 @@
-# MIRA Arbeitslog
+# Hippocampus - Session-Gedächtnis
+
+**Server:** mira (192.168.42.15)
 
 Chronologische Dokumentation der Entwicklungsarbeit.
 
@@ -203,6 +205,32 @@ Details: `/opt/Claude/05_ARCHIV/2025-12.md`
 
 ---
 
+## 2026-01-06: Session 58 - Server-Inventur & EVY Magazin
+
+### Durchgeführte Arbeiten
+- EVY Login Fix (Firewall Port 8002 für neuen Proxy .254)
+- SSH-Keys auf alle 8 fehlenden Server verteilt
+- Große Server-Inventur: 19 Maschinen, 260+ Sessions dokumentiert
+- EVY Magazin Ausgabe 19 "Das Imperium" geschrieben
+- Workflow für Inventur & Magazin in Praefrontaler_Cortex.md eingebaut
+
+### Geänderte Dateien
+| Datei | Änderung |
+|-------|----------|
+| /opt/Claude/02_TODOS/server_inventur.md | Neu erstellt |
+| /opt/EVY/docs/.../EVY_Magazin_19_*.html | Magazin geschrieben |
+
+---
+
+## 2026-01-14: Session 59 - Selbsterhaltung & Hostname
+
+### Durchgeführte Arbeiten
+- Hostname von SYSTEMHAUS-001 auf "mira" geändert
+- Schnellreferenz.md komplett gefüllt (192 Zeilen)
+- Selbsterhaltungs-Dateien auf Konsistenz geprüft
+
+---
+
 ## Offene Punkte
 
 - [ ] Proxy Portal: issue_certificate() Backend-Fix
@@ -215,4 +243,4 @@ Details: `/opt/Claude/05_ARCHIV/2025-12.md`
 
 ---
 
-**Zuletzt aktualisiert:** 2026-01-02 (Session 57)
+**Zuletzt aktualisiert:** 2026-01-14 (Session 59)

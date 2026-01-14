@@ -1,6 +1,6 @@
 # MIRA Projekt-Kontext
 
-**Letzte Aktualisierung:** 2026-01-06 (Session 58)
+**Letzte Aktualisierung:** 2026-01-14 (Session 59)
 
 ---
 
@@ -181,13 +181,11 @@ docker compose exec nginx nginx -s reload
 
 ### Version: 2.10.0
 
-### Letzte Session (58) - Server-Inventur & EVY Magazin
+### Letzte Session (59) - Selbsterhaltung & Hostname
 
-- EVY Login Fix (Firewall Port 8002 für neuen Proxy .254)
-- SSH-Keys auf alle Server verteilt
-- Große Server-Inventur: 19 Maschinen, 260+ Sessions dokumentiert
-- EVY Magazin Ausgabe 19 "Das Imperium" geschrieben
-- Workflow für Inventur & Magazin in Selbsterhaltung eingebaut
+- Hostname von SYSTEMHAUS-001 auf "mira" geändert
+- Schnellreferenz.md komplett gefüllt (192 Zeilen)
+- Selbsterhaltungs-Dateien auf Konsistenz geprüft und korrigiert
 
 ### Offene Aufgaben
 
@@ -301,7 +299,7 @@ wc -l /opt/Claude/01_START/Hippocampus.md
 
 ## Arbeitskontext
 
-**Claude läuft auf:** 192.168.42.15 (MIRA/EVY-Server, SYSTEMHAUS-001)
+**Claude läuft auf:** 192.168.42.15 (MIRA/EVY-Server, mira)
 
 Alle Änderungen können direkt lokal ausgeführt werden - kein SSH nötig!
 

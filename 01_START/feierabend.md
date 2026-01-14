@@ -31,7 +31,7 @@ wc -l /opt/Claude/01_START/Hippocampus.md
 
 Wenn > 500 Zeilen:
 - Alte Sessions komprimieren
-- Details nach `/opt/Claude/archiv/` verschieben
+- Details nach `/opt/Claude/05_ARCHIV/` verschieben
 
 ---
 
