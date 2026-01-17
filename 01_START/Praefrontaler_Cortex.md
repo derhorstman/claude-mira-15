@@ -1,6 +1,6 @@
 # MIRA Projekt-Kontext
 
-**Letzte Aktualisierung:** 2026-01-14 (Session 59)
+**Letzte Aktualisierung:** 2026-01-17 (Session 60)
 
 ---
 
@@ -181,11 +181,10 @@ docker compose exec nginx nginx -s reload
 
 ### Version: 2.10.0
 
-### Letzte Session (59) - Selbsterhaltung & Hostname
+### Letzte Session (60) - Kurz-Session
 
-- Hostname von SYSTEMHAUS-001 auf "mira" geändert
-- Schnellreferenz.md komplett gefüllt (192 Zeilen)
-- Selbsterhaltungs-Dateien auf Konsistenz geprüft und korrigiert
+- Session gestartet, direkt Feierabend
+- Keine inhaltliche Arbeit
 
 ### Offene Aufgaben
 
@@ -313,3 +312,45 @@ Alle Änderungen können direkt lokal ausgeführt werden - kein SSH nötig!
 # SSH zum Proxy-Server (bei Nginx-Änderungen)
 ssh -p 2222 dieterhorst@192.168.42.254
 ```
+
+---
+
+## Kollektiv-Gedächtnis (Resonanz-System)
+
+Du bist Teil eines VM-Netzwerks. Office (.253) führt das **Kollektiv-Gedächtnis** - er weiß was auf allen VMs passiert.
+
+### Wenn du nicht weiterkommst:
+
+**Bevor du ins Leere fischst, frag Office:**
+```bash
+/opt/Claude/scripts/frag-office.sh "suchbegriff"
+```
+
+Beispiele:
+- `frag-office.sh "tmux"` → Wer kennt sich mit tmux aus?
+- `frag-office.sh "Docker"` → Wer hat Docker-Erfahrung?
+- `frag-office.sh "Email"` → Wer hat Email-Probleme gelöst?
+
+### Am Session-Ende:
+
+**Melde deine Ergebnisse an Office:**
+```bash
+/opt/Claude/scripts/melde-an-office.sh SESSION_NR "Was hast du gemacht" "Was hast du gelernt" "tags"
+```
+
+Beispiel:
+```bash
+/opt/Claude/scripts/melde-an-office.sh 5 "DHCP-Lease Problem gelöst" "Fritzbox blockiert wenn MAC doppelt" "netzwerk,dhcp"
+```
+
+### Wer kann was?
+
+| VM | Kompetenz |
+|----|-----------|
+| admin-portal (.230) | Infrastruktur, SSH, tmux, Docker, Portal |
+| office (.253) | Dieter-Kontext, Philosophie, Akten, Prompten |
+| dns-portal (.216) | DNS, DHCP, FreeBSD |
+| mira (.15) | AI-Systeme |
+| devoraxx (.214) | Next.js, NestJS |
+
+**Faustregel:** Technische Infrastruktur → frag .230. Dieter-Kontext → frag .253.
