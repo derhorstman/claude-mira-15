@@ -124,7 +124,7 @@ wc -l /opt/Claude/01_START/Hippocampus.md
 
 | Datei | Max Zeilen | Aktuell |
 |-------|------------|---------|
-| Hippocampus.md | 500 | 170 |
+| Hippocampus.md | 500 | 254 |
 
 **Regel:** Bei > 500 Zeilen -> archivieren!
 

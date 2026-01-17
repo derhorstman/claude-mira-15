@@ -354,3 +354,18 @@ Beispiel:
 | devoraxx (.214) | Next.js, NestJS |
 
 **Faustregel:** Technische Infrastruktur → frag .230. Dieter-Kontext → frag .253.
+
+---
+
+## WICHTIG: Feierabend-Trigger
+
+**Wenn der User "feierabend" sagt (egal ob groß/klein geschrieben):**
+
+Führe SOFORT die komplette Routine aus `/opt/Claude/01_START/feierabend.md` durch:
+
+1. aktuell.md aktualisieren (Stand + Session-Nr)
+2. Hippocampus.md - Session dokumentieren
+3. Git-Backup: `cd /opt/Claude && git add -A && git commit -m "Session ..."`
+4. Melde an Office: `/opt/Claude/scripts/melde-an-office.sh`
+
+**NICHT nur "Bis bald" sagen! Die Routine MUSS ausgeführt werden!**
