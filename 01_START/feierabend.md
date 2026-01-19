@@ -43,7 +43,15 @@ rm -f /opt/Claude/screenshots/*.png
 
 ---
 
-## 4. Git-Backup erstellen
+## 4. An Office melden
+
+```bash
+/opt/Claude/scripts/melde-an-office.sh SESSION_NR "Was gemacht" "Was gelernt" "tags"
+```
+
+---
+
+## 5. Git-Backup erstellen
 
 **WICHTIG: Am Ende IMMER einen Git-Commit machen!**
 
@@ -68,7 +76,8 @@ cd /opt/Claude && git reset --hard <commit-hash>  # Zurücksetzen
 3. Praefrontaler_Cortex.md aktualisiert
 4. Hippocampus hat XX Zeilen (OK / archivieren nötig)
 5. Screenshots gelöscht
-6. Git-Backup erstellt
+6. An Office gemeldet
+7. Git-Backup erstellt
 
 **Nächste Session:** Sage 'start' für Kontext.
 
