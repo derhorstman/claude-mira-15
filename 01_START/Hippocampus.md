@@ -251,4 +251,33 @@ Details: `/opt/Claude/05_ARCHIV/2025-12.md`
 
 ---
 
-**Zuletzt aktualisiert:** 2026-01-17 (Session 60)
+## 2026-01-19: Session 61 - mukupi.art Seiten wieder online
+
+### Durchgeführte Arbeiten
+- Selbsterhaltung Konsistenzprüfung (ich.md Hostname fix, Ordnerstruktur bereinigt)
+- mukupi.art ZIP entpackt nach `/opt/mukupi_art/`
+- 5 Subseiten wieder online gebracht:
+  - `/drecksaus/` - statisches HTML
+  - `/handel/` - Portfolio-Ansicht mit Dieter/Phil/Jascha/Evy
+  - `/leihorst/` - statisches HTML
+  - `/money4me/` - FastAPI Backend (Port 8050), Bank-CSV Import
+  - `/berater/` - FastAPI Backend (Port 8051), Zeiterfassung
+- Portfolio-Updater Cronjobs eingerichtet (22:05-22:08 täglich)
+- systemd Services für money4me und berater erstellt
+- berater 401-Fehler gefixt (Username-Mismatch Frontend/Backend)
+
+### Geänderte Dateien
+| Datei | Änderung |
+|-------|----------|
+| /opt/proxy-portal/nginx/sites/mukupi.art.conf | Location-Blöcke für alle Subseiten |
+| /opt/money4me/main.py | FastAPI Backend (Proxy .254) |
+| /opt/berater/app.py | FastAPI Backend (Proxy .254) |
+| /opt/mukupi_updater/*.py | Portfolio-Updater Scripts (Proxy .254) |
+
+### Erkenntnisse
+- Docker-Container müssen 172.17.0.1 (Docker Host IP) statt 127.0.0.1 nutzen
+- Browser-SessionStorage cached alte Auth-Credentials → Logout/Login hilft
+
+---
+
+**Zuletzt aktualisiert:** 2026-01-19 (Session 61)

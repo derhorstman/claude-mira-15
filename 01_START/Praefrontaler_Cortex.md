@@ -1,6 +1,6 @@
 # MIRA Projekt-Kontext
 
-**Letzte Aktualisierung:** 2026-01-17 (Session 60)
+**Letzte Aktualisierung:** 2026-01-19 (Session 61)
 
 ---
 
@@ -184,10 +184,12 @@ docker compose exec nginx nginx -s reload
 
 ### Version: 2.10.0
 
-### Letzte Session (60) - Kurz-Session
+### Letzte Session (61) - mukupi.art Seiten wieder online
 
-- Session gestartet, direkt Feierabend
-- Keine inhaltliche Arbeit
+- 5 mukupi.art Subseiten wieder online (/drecksaus, /handel, /leihorst, /money4me, /berater)
+- FastAPI Backends für money4me (8050) und berater (8051) eingerichtet
+- Portfolio-Updater Cronjobs (22:05-22:08 täglich)
+- berater 401-Fehler gefixt
 
 ### Offene Aufgaben
 
