@@ -23,14 +23,20 @@ Wenn `Hippocampus.md` **> 500 Zeilen** wird:
 │   ├── Praefrontaler_Cortex.md   # WIE ich denke (immer aktuell, nie kürzen)
 │   ├── Hippocampus.md            # WAS ich erlebt habe (max ~500 Zeilen)
 │   ├── aktuell.md                # Aktuelle Aufgabe + nächste Schritte
+│   ├── Schnellreferenz.md        # Projektspezifische Schnellreferenz
+│   ├── Thalamus.md               # Live Session Buffer (optional)
 │   ├── todo_today.md             # Tagesaktuelle Aufgaben
 │   └── feierabend.md             # Feierabend-Routine
+├── 02_DOCS/                      # Dokumentation & Konzepte
 ├── 02_TODOS/                     # Alle Todo-Listen thematisch sortiert
 ├── 03_GEWERBE/                   # Gewerbeanmeldung Systemhaus Horst
+├── 03_HIPPOCAMPUS/               # Hippocampus-Changelog
 ├── 04_SESSIONBERICHTE/           # Detaillierte Session-Berichte
 ├── 05_ARCHIV/                    # Komprimierte alte Sessions
 │   └── 2025-12.md
-└── 06_VERTRAGSWESEN/             # Verträge
+├── 06_VERTRAGSWESEN/             # Verträge
+├── 07_MARKETING/                 # Marketing-Material
+└── scripts/                      # Hilfs-Scripts (frag-office.sh, etc.)
 ```
 
 ### Wann archivieren?
@@ -188,11 +194,13 @@ docker compose exec nginx nginx -s reload
 
 ### Offene Aufgaben
 
+- [ ] **Proxy Portal Fix:** issue_certificate() Funktion muss certbot tatsächlich ausführen
 - [ ] **Audio-Icon:** Bessere visuelle Unterscheidung aktiviert/deaktiviert
 - [ ] **WhatsApp Integration:** Phone Number ID + Token aktualisieren
 - [ ] **Gewerbeanmeldung:** Online bei Stadt Ahlen (Daten in `/opt/Claude/03_GEWERBE/`)
 - [ ] Demo-Video für Vertriebspartner
 - [ ] gateway.py Modularisierung (301KB -> aufteilen)
+- [ ] Eigener TTS-Key für Company-Admins
 
 ---
 
